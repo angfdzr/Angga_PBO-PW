@@ -1,0 +1,285 @@
+*{
+    font-family: Verdana;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.konten{
+    background-image: url(Gambar/ilustrasi-lautpantai_169.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.konten{
+    background-image: url(Gambar/ilustrasi-lautpantai_169.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* .bar{
+    background-color: rgb(255,255,255);
+} */
+
+.nav-konten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgb(255, 255, 255);
+    opacity: 30%; */
+}
+
+.nav-konten ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-konten ul li{
+    padding: 25px;
+}
+
+.nav-konten ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.nav-konten ul li:hover{
+    background-color: #d3ecf0e0;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav-konten ul li a:hover{
+    color:rgb(221, 159, 24);
+}
+
+/*  */
+
+.teks{
+    margin: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.konten h1{
+    color: rgb(221, 159, 24);
+    font-size: 35px;
+}
+
+.konten .p1{
+    padding: 10px;
+}
+
+.konten .p1:hover{
+    background-color:  #d3ecf0e0;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.konten .p1 a.next{
+    color: rgb(218, 151, 28);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.konten .p1 a.next:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*  */
+
+.konten2{
+    margin: 40px;
+    padding: 15px;
+    background-color: rgb(119, 219, 219);
+    border-radius: 30px;
+}
+
+.konten2 li{
+    font-weight: bold;
+    text-align: center;
+}
+
+.konten2 p{
+    text-align: justify;
+}
+
+.konten3{
+    width: 800px;
+    margin: 30px 50px auto;
+    text-align: justify;
+    background-color: #64c7d4bd;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.konten3:hover{
+    background-color: rgb(212, 154, 78);
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.konten3 img{
+    width: 100%;
+    height: auto;
+}
+
+.semua{
+    display: flex;
+}
+
+.berita1-teks{
+    padding: 10px;
+}
+
+.bungkus{
+    display: flex;
+    text-align: justify;
+    background-color: #99cbd1bd;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.mini-1{
+    width: 200px;
+    margin: 30px 50px auto;
+    margin-bottom: 30px;
+    background-color: #63add8ec;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.mini-1:hover{
+    background-color:  rgb(212, 154, 78);
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.mini-1 img{
+    width: 200px;
+}
+
+.kotak{
+    margin: 90px;
+}
+
+.kotak .judul-kotak{
+    text-align: center;
+    font-weight: bold;
+    background-color: wheat;
+}
+
+.nama-1{
+    background-color: hsla(187, 50%, 72%, 0.741);
+    margin: 20px 300px 20px 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.img-nisa{
+    position: relative;
+    left: 130px;
+    border-radius: 25px;
+}
+
+.img-nisa:hover{
+    position: relative;
+    left: 130px;
+    border-radius: 25px;
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.titik{
+    padding-right: 30px;
+}
+
+.btn-kembali{
+    background-color: rgb(236, 164, 30);
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-kembali:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(236, 164, 30);
+}
+
+.formulir{
+    margin: 50px 400px;
+    background-color: rgb(139, 218, 205);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.judul-form{
+    text-align: center;
+}
+
+.isi-form{
+    line-height: 30px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.btn-submit {
+background-color: #4CAF50; /* Hijau */
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+}
+.btn-submit:hover {
+background-color:rgb(236, 164, 30); /* Hijau */
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: 0.3s;
+}
