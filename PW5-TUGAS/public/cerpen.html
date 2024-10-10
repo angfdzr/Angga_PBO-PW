@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kisah Cerpen - SUAKA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="gambar/favicon_io/android-chrome-512x512.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav class="menu-utama">
+      <ul>
+        <img src="gambar/2-1.png" alt="logo" width="100px" />
+        <h1 class="suaka">SUAKA</h1>
+        <li><a href="home.html">Home</a></li>
+        <li>
+          <a href="">Kisah</a>
+          <ul class="sub-menu">
+            <li><a href="cerpen.html">Cerita Pendek</a></li>
+            <li><a href="filmpendek.html">Film Pendek</a></li>
+          </ul>
+        </li>
+        <li><a href="curhat.html">Curhat</a></li>
+        <li class="right"><a href="tentang.html">Tentang Kami</a></li>
+      </ul>
+    </nav>
+
+    <!-- Section Cerita -->
+    <div class="bar">
+      <div class="teksCerpen-desk">
+        <h1>Cerita Pendek</h1>
+        <input id="edit-btn" class="edit-btn-top" type="button" value="Edit" />
+      </div>
+    </div>
+
+    <div class="input-form" id="formContainer" style="display: none">
+      <input type="text" id="no" placeholder="No." required />
+      <input type="text" id="judul" placeholder="Judul Cerita" required />
+      <input type="text" id="sinopsis" placeholder="Sinopsis" required />
+      <input type="text" id="penulis" placeholder="Penulis" required />
+      <input type="text" id="waktu" placeholder="Waktu Terbit" required />
+      <button class="add" id="tambah">Tambah</button>
+      <button class="cancel" id="batal" type="button" onclick="hideForm()">
+        Batal
+      </button>
+    </div>
+
+    <div class="tabel-kolom">
+      <table id="ceritaTable" border="1" cellspacing="0" cellpadding="10">
+        <tr>
+          <th>No.</th>
+          <th class="judul">Judul Cerita</th>
+          <th class="sinopsis">Sinopsis</th>
+          <th class="penulis">Penulis</th>
+          <th class="waktu">Waktu Terbit</th>
+          <th class="ket">Aksi</th>
+          <!-- Kolom untuk aksi -->
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>Tentang SUAKA</h3>
+          <p>
+            SUAKA adalah platform yang memberikan dukungan kesehatan mental bagi
+            mahasiswa, dengan berbagai sumber daya dan layanan untuk membantu
+            mereka dalam perjalanan mereka menuju kesehatan mental yang lebih
+            baik.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Menu Cepat</h3>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cerpen.html">Cerita Pendek</a></li>
+            <li><a href="filmpendek.html">Film Pendek</a></li>
+            <li><a href="curhat.html">Curhat</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Hubungi Kami</h3>
+          <p>
+            Email:
+            <a href="mailto:info@suaka.com">adkesmahimataska@gmail.com</a>
+          </p>
+          <p>Telepon: <a href="tel:+62123456789">+62 859 4597 3369</a></p>
+        </div>
+        <div class="footer-social">
+          <h3>Ikuti Kami</h3>
+          <a
+            class="link-footer"
+            href="https://www.instagram.com/adkesma_himataska?igsh=dzdwams4em80MWM1"
+            ><img
+              src="gambar/footer/instagram.png"
+              alt="Instagram"
+              width="30px"
+            />@adkesma_himataska</a
+          >
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SUAKA. Semua hak dilindungi.</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
